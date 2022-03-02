@@ -1,0 +1,81 @@
+body{
+  background-color: #0d192b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  text-align: center;
+  font-family: 'Outfit', sans-serif;
+}
+hr{
+  border: 1px solid #2f415b;
+  width: 87%;
+}
+h1{
+  margin: 10px 28px;
+  text-align: left;
+  color: white;
+  font-size: 1.5em;
+}
+.avatar{
+   width:30px;
+   height:30px;
+   border: 1px solid white;
+   border-radius: 50%;
+}
+.bottomContainer{
+  display: flex;
+  margin: 20px 27px;
+  align-items: center;
+
+}
+.container{
+  width: 30%;
+  background-color: #14253d;
+  border-radius: 3%;
+}
+.clock{
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #8bacda;
+}
+.diamond{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #00fff7;
+  font-size: 1.3em;
+}
+.diamondClock{
+  display: flex;
+  margin: 0 27px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.main-img{
+  margin: 20px;
+  width: 85%;
+  border-radius: 3%;
+}
+.Name{
+  color: white;
+}
+.p1{
+  margin: 20px 28px;
+  text-align: left;
+  font-size: 1.2em;
+  color: #8bacda;
+  line-height: 1.5;
+}
+.p2{
+  margin-left: 20px;
+  color: #8bacda;
+}
+.hover:hover{
+  color: #00fff7;
+  cursor: pointer;
+}
+.main-img:hover{
+  background: "https://pixlok.com/wp-content/uploads/2021/10/Eye-Icon-wsj93.png" no repeat;
+  opacity: 0.6;
+}
